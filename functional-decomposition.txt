@@ -1,0 +1,23 @@
+Getting food from a vending machine - Machine Perspective
+  - Use motors to in a forward direction to the vending machine
+  - Stop at reachable range
+  - Insert coins or cash into a slot sas payment
+  - Use buttons to select whatever flavour was commanded
+  - When the selected item is deposited, lower arm to the level of the opening and pick up the bag of chips
+
+Identify where there might be basic programming concepts in your break-down above.
+  - basic commands can tell the machine where to move and what flavour to choose
+  - loops can repeat the process to buy multiple items or the same item multiple times
+  - if statements can help buy a different flavour of chips if the first flavour is not availible
+ 
+ The cookie is too big for the glass - How do you fix this problem?
+  - Break down the cookies into smaller pieces so the pieces can fit in the glass
+  - Get a glass that is larger and wider so the entire cookie will fit inside the glass
+  
+ The cookie is too big for the glass -  How can you prevent this problem?
+  - You can buy smaller cookies that will definitely fit inside the glass
+  - You could buy a larger and wider glass that can fix the shape of the cookie you are eating
+  
+ The cookie is too big for the glass - How can this problem be solved with an app?
+  - A app could measure the diametre of the glass and the cookie and check if the cookie will fit into the glass
+  - If it does not match then it will recommend you other cookies that will fit
