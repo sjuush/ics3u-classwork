@@ -5,9 +5,9 @@ x = int(input("How many cans come in a pack?"))
 y = int(input("How many packs are there?"))
 print("The amount of cans is:", x*y)
 
-x = int(input("What is the length?"))
-y = int(input("What is the width?"))
-z = int(input("What is the height?"))
+x = float(input("What is the length?"))
+y = float(input("What is the width?"))
+z = float(input("What is the height?"))
 print("The volume of the rectangular prism is:", x * y * z)
 
 x = input("Did you just enter a google meet and then mute the teacher?")
