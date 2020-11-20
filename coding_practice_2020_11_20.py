@@ -9,3 +9,11 @@ x = int(input("What is the length?"))
 y = int(input("What is the width?"))
 z = int(input("What is the height?"))
 print("The volume of the rectangular prism is:", x * y * z)
+
+x = input("Did you just enter a google meet and then mute the teacher?")
+if x == "yes":
+  print("You probably shouldn't do that")
+if x == "no":
+  print("Ok, Good")
+else:
+  print("Invalid response")
