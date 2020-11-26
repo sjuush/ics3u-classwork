@@ -109,6 +109,159 @@ def n_twice(string: str, n: int) -> str:
 result = n_twice('Chocolate', 3)
 print(result)
 
+Python Workbook:
+1. 34
+number = int(input("Enter a number:"))
+if number % 2 == 0:
+  print("This number is even")
+else:
+  print("This number is odd")
+
+2. 35
+humanYears = float(input("How many human years?"))
+if humanYears <= 2:
+  dogYears = humanYears * 10.5
+else:
+  dogYears = (2 * 10.5) + ((humanYears - 2) * 4)
+print(humanYears, "human years is equal to", dogYears, "dog years")
+
+3. 36
+letter = input("Enter a letter").lower()
+if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+  print("This is a vowel")
+elif letter == "y":
+  print("Y is sometimes a vowel and sometimes a consonant")
+else: 
+  print("That is a consonant")
+  
+4. 37
+sides = int(input("Enter the number of sides"))
+if sides == 3:
+  print("This is a triangle")
+elif sides == 4:
+  print("This is a quadrilateral")
+elif sides == 5:
+  print("This is a pentagon")
+elif sides == 6:
+  print("This is a hexagon")
+elif sides == 7:
+  print("This is a heptagon")
+elif sides == 8:
+  print("This is a octagon")
+elif sides == 9: 
+  print("This is a nonagon")
+elif sides == 10:
+  print("This is a decagon")
+else: 
+  print("This is not supported")
+ 
+5. 40
+sideA = input("Enter a side length")
+sideB = input("Enter a side length")
+sideC = input("Enter a side length")
+if sideA == sideB == sideC:
+  print("This is an equilateral triangle")
+elif sideA == sideB or sideA == sideC or sideB == sideC:
+  print("This is a isosceles")
+else: 
+  print("This is a scalene triangle")
+  
+6. 43
+note = int(input("Enter banknote"))
+if note == 1:
+  print("George Washington")
+elif note == 2:
+  print("Thomas Jefferson")
+elif note == 5:
+  print("Abraham Lincoln")
+elif note == 10:
+  print("Alexander Hamilton")
+elif note == 20:
+  print("Andrew Jackson")
+elif note == 50:
+  print("Benjamin Franklin")
+else: 
+  print("Invalid Note")
+  
+7. 44
+month = input("Enter a month").lower()
+days = input("Enter a day")
+if month == "january" and days == 1:
+  print('This is New Years Day')
+elif month == "july" and days == 1:
+  print("This is Canada Day")
+elif month == "december" and days == 25:
+  print("This is Christmas Day")
+else: 
+  print("There is no holiday")
+  
+8. 48
+year = int(input("Enter a year"))
+if year % 12 == 8:
+  print("Dragon")
+elif year % 12 == 9:
+  print("Snake")
+elif year % 12 == 10:
+  print("Horse")
+elif year % 12 == 11:
+  print("Sheep")
+elif year % 12 == 0:
+  print("Monkey")
+elif year % 12 == 1:
+  print("Rooster")
+elif year % 12 == 2:
+  print("Dog")
+elif year % 12 == 3:
+  print("Pig")
+elif year % 12 == 4:
+  print("Rat")
+elif year % 12 == 5:
+  print("Ox")
+elif year % 12 == 6:
+  print("Tiger")
+elif year % 12 == 7:
+  print("Hare")
+ 
+9. 51
+letter = input("Enter a letter grade:").upper()
+if letter == "A+" or letter == "A":
+  print("4.0")
+elif letter == "A-":
+  print("3.7")
+elif letter == "B+":
+  print("3.3")
+elif letter == "B":
+  print("3.0")
+elif letter == "B-":
+  print("2.7")
+elif letter == "C+":
+  print("2.3")
+elif letter == "C":
+  print("2.0")
+elif letter == "C-":
+  print("1.7")
+elif letter == "D+":
+  print("1.3")
+elif letter == "D":
+  print("1.0")
+elif letter == "F":
+  print("0")
+else: 
+  print("INVALID")
+ 
+10. 53
+year = int(input("Enter a number of years"))
+if year % 400 == 0:
+  print("Leap Year")
+elif year % 100 == 0:
+  print("Not a leap year")
+elif year % 4 == 0:
+  print("Leap Year")
+else: 
+  print("Not a leap year")
+
+
+
 
 
 
