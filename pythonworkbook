@@ -1,0 +1,71 @@
+81.
+import math
+def hypoteneuse(a, b):
+  c = a ** (2) + b ** (2)
+  c = math.sqrt(c)
+  return c
+
+result = hypoteneuse(10, 12)
+print(result)
+
+82. 
+def taxi_fare(distance):
+  travelled = distance / 0.14
+  travelled = travelled * 0.25
+  cost = 4 + travelled
+  return cost
+
+result = taxi_fare(14)
+print(result)
+
+83.
+def shipping(packages):
+  packages = packages - 1
+  cost = packages * 2.95
+  cost = cost + 10.95
+  return cost
+
+result = shipping(8)
+print(result)
+
+84.
+def median(value1, value2, value3):
+  if value2 < value1 and value1 < value3 or value2 > value1 and value1 > value3:
+    return value1
+  if value1 < value2 and value2 < value3 or value1 > value2 and value2 > value3:
+    return value2
+  if value1 < value3 and value3 < value2 or value1 > value3 and value3 > value2:
+    return value3
+
+result = median(7, 2, 3)
+print(result)
+
+85.
+def ordinal(number):
+  if number == 1:
+    return "first"
+  if number == 2:
+    return "second"
+  if number == 3:
+    return "third"
+  if number == 4:
+    return "fourth"
+  if number == 5:
+    return "fifth"
+  if number == 6:
+    return "sixth"
+  if number == 7:
+    return "seventh"
+  if number == 8:
+    return "eigth"
+  if number == 9:
+    return "ninth"
+  if number == 10:
+    return "tenth"
+  if number == 11:
+    return "eleventh"
+  if number == 12:
+    return "twelfth"
+
+result = ordinal(10)
+print(result)
